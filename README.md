@@ -20,7 +20,7 @@
 * 数据增强
 * loss权重
 * 模型融合
-* TTA
+* 测试时增强（TTA）
 * 忽略边缘预测 &nbsp; [知乎链接](https://zhuanlan.zhihu.com/p/158769096)
 
 ## 具体流程
