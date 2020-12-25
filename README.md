@@ -22,4 +22,8 @@
 * TTA
 * 忽略边缘预测 &nbsp; [知乎链接](https://zhuanlan.zhihu.com/p/158769096)
 
+## 训练
+直接运行train.py
 
+## 部署
+将.pth模型文件放到submission文件夹中，然后上传至modelarts部署
