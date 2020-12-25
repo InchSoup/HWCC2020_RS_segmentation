@@ -19,7 +19,7 @@
 ## 网络结构
 EfficientUnet-b3 + EfficientUnet-b4
 
-[模型代码链接](https://github.com/zhoudaxia233/EfficientUnet-PyTorch)
+
 
 ## 涨点技巧
 * 数据增强
@@ -42,3 +42,5 @@ EfficientUnet-b3 + EfficientUnet-b4
 
 上传部署：将该.pth模型文件放到submission文件夹中，然后上传至modelarts部署。
 
+## eference
+[https://github.com/zhoudaxia233/EfficientUnet-PyTorch](https://github.com/zhoudaxia233/EfficientUnet-PyTorch)
