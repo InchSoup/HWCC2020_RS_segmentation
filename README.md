@@ -23,7 +23,7 @@
 * TTA
 * 忽略边缘预测 &nbsp; [知乎链接](https://zhuanlan.zhihu.com/p/158769096)
 
-## 流程
+## 具体流程
 ### 1. 生成数据集
 打开others/cut_data.py，修改数据集地址data_dir，运行生成数据集。
 
