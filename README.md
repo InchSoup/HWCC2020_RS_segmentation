@@ -41,3 +41,4 @@ EfficientUnet-b3 + EfficientUnet-b4
 模型融合：打开others/model_fusion.py，更改b3、b4权重文件路径，运行生成集成模型的权重文件。
 
 上传部署：将该.pth模型文件放到submission文件夹中，然后上传至modelarts部署。
+
