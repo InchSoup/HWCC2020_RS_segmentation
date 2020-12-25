@@ -17,7 +17,7 @@
 之后通过筛再去除全黑的图像作为最终用于训练和验证的数据集。
 
 ## 网络结构
-efficientUnet-b3 + b4
+efficientunet-b3 + b4
 
 
 
