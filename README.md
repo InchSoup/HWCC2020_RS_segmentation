@@ -16,6 +16,9 @@
 
 之后通过筛再去除全黑的图像作为最终用于训练和验证的数据集。
 
+## 网络结构
+EfficientUnet-b3 + EfficientUnet-b4[参考](https://github.com/zhoudaxia233/EfficientUnet-PyTorch)
+
 ## 涨点技巧
 * 数据增强
 * loss权重
