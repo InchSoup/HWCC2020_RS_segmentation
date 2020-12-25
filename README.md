@@ -9,6 +9,7 @@
 * Ubuntu 18.04 
 * Python 3.7
 * Pytorch 1.4
+* albumentations
 
 ## 数据集
 使用baseline默认的切图代码。切图的边长为512，步长为256，训练验证集比例为10:1。
