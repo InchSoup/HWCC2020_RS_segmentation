@@ -6,7 +6,7 @@
 初赛成绩：0.8377 &nbsp; (6/377)
 
 ## 环境
-* Ubuntu 18.04 
+* Ubuntu 18.04 1080Ti
 * Python 3.7
 * Pytorch 1.4
 * albumentations
