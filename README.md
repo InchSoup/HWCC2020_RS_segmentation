@@ -25,14 +25,14 @@
 
 ## 具体流程
 ### 1. 生成数据集
-打开others/cut_data.py，修改数据集地址data_dir，运行生成数据集。注意，这里生成的图片是BGR通道的。
+切图：打开others/cut_data.py，修改数据集地址data_dir，运行生成数据集。注意，这里生成的图片是BGR通道的。
 
-打开others/remove_black.py, 填写刚刚生成的数据集地址old_data_dir，选择去除黑边后数据集新保存的地址data_dir。
+去除黑边：打开others/remove_black.py, 填写刚刚生成的数据集地址old_data_dir，选择去除黑边后数据集新保存的地址data_dir。
 
 ### 2. 训练
-打开train.py，修改数据集地址data_dir，选择训练的模型（默认是b4），运行。生成的权重以及日志保存在outputs文件里。
+训练：打开train.py，修改数据集地址data_dir，选择训练的模型（默认是b4），运行。生成的权重以及日志保存在outputs文件里。
 
 ### 3. 部署
-打开others/model_fusion.py，更改b3、b4权重文件路径，运行生成集成模型的权重文件。
+模型融合：打开others/model_fusion.py，更改b3、b4权重文件路径，运行生成集成模型的权重文件。
 
-将该.pth模型文件放到submission文件夹中，然后上传至modelarts部署。
+部署：将该.pth模型文件放到submission文件夹中，然后上传至modelarts部署。
