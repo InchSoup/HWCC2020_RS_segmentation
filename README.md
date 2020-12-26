@@ -30,7 +30,7 @@ efficientunet-b3 + b4
 
 ## 具体流程
 ### 1. 生成数据集
-切分图片：打开others/cut_data.py，修改数据集地址data_dir，运行生成数据集。注意，这里生成的图片是BGR通道的。
+切分图片：打开others/cut_data.py，修改数据集地址data_dir，运行生成数据集。注意，这里使用的是baseline切图代码，生成的图片是BGR通道的，之后在预测时做了通道转换。
 
 去除黑边：打开others/remove_black.py, 填写刚刚生成的数据集地址old_data_dir，选择去除黑边后数据集新保存的地址data_dir。
 
